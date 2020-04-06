@@ -1,0 +1,29 @@
+baseURL: /
+
+publishDir: "public"
+languageCode: en-us
+title: "TCN Coalition"
+
+canonifyURLs: true
+enableRobotsTXT: true
+sectionPagesMenu: main
+
+params:
+  ga_id: "UA-xxxxx-xx"
+  description: "A Global Coalition for Privacy-First Digital Contact Tracing Protocols to Fight COVID-19"
+  keywords: ""
+  cachebuster: ""
+  name: "TCN Coalition"
+  email: info@tcn-coalition.org
+
+
+
+disableKinds:
+  - section
+  - section
+  - taxonomy
+  - taxonomyTerm
+  - rss
+  - section
+  - page
+
