@@ -1,6 +1,6 @@
 ---
 title: "A Global Coalition for Privacy-First Digital Contact Tracing Protocols to Fight COVID-19"
-date: 202-04-06T21:48:09Z
+date: 2020-04-06T21:48:09Z
 draft: false
 
 ---
@@ -12,3 +12,5 @@ Over the course of the past few weeks, the global community of technologists, pr
 Our first and foremost goal is to get secure tracing apps running on billions of users’ devices globally — fast. The TCN Coalition’s easy-to-implement privacy-first protocol, agreed upon and reviewed by dozens of experts, is open-source, extensible, free of charge, and available for implementation immediately. TCN — the core of the protocol — stands for temporary contact number. This completely anonymous number is generated to privately record interactions between compatible mobile devices without allowing them to be tracked.
 
 We urge all major technology companies, app developers and governments to implement apps compatible with this shared protocol. We welcome other groups engaged in similar efforts to join us at [TCN-coalition.org](http://TCN-coalition.org). We also encourage any other contact tracing coalitions to adopt similarly secure privacy-first protocols.
+
+More information on the TCN protcol is available on GitHub at https://github.com/TCNCoalition/TCN
