@@ -6,7 +6,7 @@
 ##
 - organization: CoEpi
   country: USA
-  logo: 
+  logo: images/members/CoEpi-logo.png
   url: https://www.coepi.org/
 - organization: Openmined
   country: 
@@ -18,7 +18,7 @@
   url: https://www.ito-app.org/
 - organization: Secure Open Standard for Tracking and Notification
   country: 
-  logo:
+  logo: images/members/SOS-logo.png
   url: https://docs.google.com/presentation/d/163WcvBqElA5aVDKIHY9jeY5fTtzj3a-zZLYRaEgYELg/edit#slide=id.g728589ef5c_84_15
 - organization: Zcash Foundation
   country: 
