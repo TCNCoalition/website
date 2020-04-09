@@ -1,22 +1,50 @@
+---
+##
+# LOGO
+# the logo should be a file inside static/images/members ore a link to the png/jpg
+# the dimension of the logo should be 250x250
+##
 - organization: CoEpi
+  country: USA
+  logo: 
   url: https://www.coepi.org/
 - organization: Openmined
+  country: 
+  logo:
   url: https://www.openmined.org/
 - organization: ito
+  country: Germany
+  logo: images/members/ito-logo.png
   url: https://www.ito-app.org/
 - organization: Secure Open Standard for Tracking and Notification
+  country: 
+  logo:
   url: https://docs.google.com/presentation/d/163WcvBqElA5aVDKIHY9jeY5fTtzj3a-zZLYRaEgYELg/edit#slide=id.g728589ef5c_84_15
 - organization: Zcash Foundation
+  country: 
+  logo:
   url: https://www.zfnd.org/
 - organization: Wolk
+  country: 
+  logo:
   url: https://www.wolk.com/
 - organization: Covid Watch
+  country: 
+  logo:
   url: https://www.covid-watch.org/
 - organization: my co:radar
+  country: 
+  logo:
   url: http://www.mycoradar.eu/
 - organization: ohioh.de - Our Health In Our Hands
+  country: 
+  logo:
   url: https://ohioh.de
 - organization: Gary Belvin
+  country: 
+  logo:
   url: https://gdbelvin.com/
 - organization: Coalition Network
+  country: 
+  logo:
   url: https://www.coalitionnetwork.org/
