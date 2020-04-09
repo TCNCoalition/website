@@ -6,42 +6,42 @@
 ##
 - organization: CoEpi
   country: USA
-  logo: images/members/coepi.svg
+  logo: images/members/CoEpi-logo.png
   url: https://www.coepi.org/
 - organization: Openmined
   country: United Kingdom
-  logo: images/members/openmined.png
+  logo: images/members/openmined-logo.png
   url: https://www.openmined.org/
 - organization: ito
   country: Germany
   logo: images/members/ito-logo.png
   url: https://www.ito-app.org/
 - organization: Secure Open Standard for Tracking and Notification
-  country: Germany
-  logo:
+  country: 
+  logo: images/members/SOS-logo.png
   url: https://docs.google.com/presentation/d/163WcvBqElA5aVDKIHY9jeY5fTtzj3a-zZLYRaEgYELg/edit#slide=id.g728589ef5c_84_15
 - organization: Zcash Foundation
   country: Global
-  logo: images/members/zfnd.png
+  logo: images/members/zfnd-logo.png
   url: https://www.zfnd.org/
 - organization: Wolk
   country: USA
-  logo: images/members/wolk.png
+  logo: images/members/wolk-logo.png
   url: https://www.wolk.com/
 - organization: Covid Watch
   country: Global
-  logo: images/members/CovidWatch.png
+  logo: images/members/CovidWatch-logo.png
   url: https://www.covid-watch.org/
 - organization: my co:radar
   country: Germany
-  logo: images/members/mycoradar.png
+  logo: images/members/mycoradar-logo.png
   url: http://www.mycoradar.eu/
 - organization: ohioh.de - Our Health In Our Hands
   country: Germany
-  logo: images/members/ohioh.png
+  logo: images/members/ohioh-logo.png
   url: https://ohioh.de
 
 - organization: Coalition Network
-  country: United States
-  logo: images/members/coalitionnetwork.jpg
+  country: USA
+  logo: images/members/coalition-network-logo.png
   url: https://www.coalitionnetwork.org/
