@@ -1,0 +1,11 @@
+<article class="page-content">
+  <header class="article-header">
+    <h2 class="title">{{ .Title }}</h2>
+    {{ with .Params.subtitle }}
+        <span class="subtitle">{{.}}</span>
+    {{ end }}
+  </header>
+  <div class="article-content">
+    {{ .Content }}
+  </div>
+</article>
