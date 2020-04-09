@@ -10,7 +10,11 @@
       <div class="member">
         <a href="{{ .url | safeHTML }}"> 
           <div class="member-logo">
-            {{ with .logo }}<img src="{{ . }}"/>{{ end }}
+            {{ if .logo }}
+              <img src="{{ .logo | absURL }}"/>
+            {{ else }}
+              <img src="{{ "images/members/blank.png" | absURL }}" />
+            {{ end }}
           </div>
           <h3>{{ .organization }}</h3>
           {{ with .country }}<span class="country">{{ . }}</span>{{ end }}
