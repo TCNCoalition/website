@@ -6,45 +6,42 @@
 ##
 - organization: CoEpi
   country: USA
-  logo: 
+  logo: images/members/coepi.svg
   url: https://www.coepi.org/
 - organization: Openmined
-  country: 
-  logo:
+  country: United Kingdom
+  logo: images/members/openmined.png
   url: https://www.openmined.org/
 - organization: ito
   country: Germany
   logo: images/members/ito-logo.png
   url: https://www.ito-app.org/
 - organization: Secure Open Standard for Tracking and Notification
-  country: 
+  country: Germany
   logo:
   url: https://docs.google.com/presentation/d/163WcvBqElA5aVDKIHY9jeY5fTtzj3a-zZLYRaEgYELg/edit#slide=id.g728589ef5c_84_15
 - organization: Zcash Foundation
-  country: 
-  logo:
+  country: Global
+  logo: images/members/zfnd.png
   url: https://www.zfnd.org/
 - organization: Wolk
-  country: 
-  logo:
+  country: USA
+  logo: images/members/wolk.png
   url: https://www.wolk.com/
 - organization: Covid Watch
-  country: 
-  logo:
+  country: Global
+  logo: images/members/CovidWatch.png
   url: https://www.covid-watch.org/
 - organization: my co:radar
-  country: 
-  logo:
+  country: Germany
+  logo: images/members/mycoradar.png
   url: http://www.mycoradar.eu/
 - organization: ohioh.de - Our Health In Our Hands
-  country: 
-  logo:
+  country: Germany
+  logo: images/members/ohioh.png
   url: https://ohioh.de
-- organization: Gary Belvin
-  country: 
-  logo:
-  url: https://gdbelvin.com/
+
 - organization: Coalition Network
-  country: 
-  logo:
+  country: United States
+  logo: images/members/coalitionnetwork.jpg
   url: https://www.coalitionnetwork.org/
