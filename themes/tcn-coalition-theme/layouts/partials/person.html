@@ -1,0 +1,14 @@
+<div class="person">
+    
+    <div class="person-photo">
+      {{ if .photo }}
+        <img src="{{ .photo | absURL }}"/>
+      {{ else }}
+        <img src="{{ "images/people/blank.png" | absURL }}" />
+      {{ end }}
+    </div>
+    <h3>{{ .name }}</h3>
+    {{ with .country }}<span class="country">{{ . }}</span>{{ end }}
+    {{ with .organization }}<span class="organization">{{ . }}</span>{{ end }}
+    {{ if .url }}<a href="{{ .url | safeHTML }}">Web</a>{{ end }}
+</div>
