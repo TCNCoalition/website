@@ -21,33 +21,42 @@ section.people
   min-height: 1px
   width: 100%
 
+
   @media only screen and (min-width: 400px)
+    flex: 50%
+    min-width: 50%
+  @media only screen and (min-width: 500px)
     flex: 33%
     min-width: 33%
-  @media only screen and (min-width: 500px)
+  @media only screen and (min-width: 600px)
     flex: 25%
     min-width: 25%
-  @media only screen and (min-width: 600px)
-    flex: 16%
-    min-width: 16%
-    
-
-
 
 
   img
     opacity: 1
     transition: .2s ease
     margin-bottom: 0.8em
+    
+
 
   &:hover
     .member-logo
       img
         opacity: 0.8
   
+
   h3
     margin: 0 0 0.2em
 
+  .photo
+
+
+
   .country
+    font-size: 0.9em
+    color: $color-primary-text
+
+  .role
     font-size: 0.9em
     color: $color-primary-text
