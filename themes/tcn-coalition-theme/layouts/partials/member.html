@@ -1,27 +1,13 @@
-<!-- start partial member.html -->
-<section class="members">
-  <header class="section-header">
-    <h2 class="title">Members of the TCN Coalition</h2>
-  </header>
- 
-  <div class="members">
-    {{ range sort $.Site.Data.members "organization" }}
-      
-      <div class="member">
-        <a href="{{ .url | safeHTML }}"> 
-          <div class="member-logo">
-            {{ if .logo }}
-              <img src="{{ .logo | absURL }}"/>
-            {{ else }}
-              <img src="{{ "images/members/blank.png" | absURL }}" />
-            {{ end }}
-          </div>
-          <h3>{{ .organization }}</h3>
-          {{ with .country }}<span class="country">{{ . }}</span>{{ end }}
-        </a>
-      </div>
-       
-    {{ end }}
-  </div>
-</section>
-<!-- end partial member.html -->
+<div class="member">
+  <a href="{{ .url | safeHTML }}"> 
+    <div class="member-logo">
+      {{ if .logo }}
+        <img src="{{ .logo | absURL }}"/>
+      {{ else }}
+        <img src="{{ "images/members/blank.png" | absURL }}" />
+      {{ end }}
+    </div>
+    <h3>{{ .organization }}</h3>
+    {{ with .country }}<span class="country">{{ . }}</span>{{ end }}
+  </a>
+</div>

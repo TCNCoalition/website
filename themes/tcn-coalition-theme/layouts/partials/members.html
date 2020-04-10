@@ -1,0 +1,13 @@
+<!-- start partial member.html -->
+<section class="members">
+  <header class="section-header">
+    <h2 class="title">Members of the TCN Coalition</h2>
+  </header>
+ 
+  <div class="members">
+    {{ range sort $.Site.Data.members "organization" }}
+      {{ partial "member.html" .}}
+    {{ end }}
+  </div>
+</section>
+<!-- end partial member.html -->
