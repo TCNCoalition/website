@@ -40,8 +40,11 @@
   country: Germany
   logo: images/members/ohioh-logo.png
   url: https://ohioh.de
-
 - organization: Coalition Network
   country: USA
   logo: images/members/coalition-network-logo.png
   url: https://www.coalitionnetwork.org/
+- organization: The Commons Project
+  country: USA
+  logo: images/members/TCP_logo.png
+  url: https://www.thecommonsproject.org/
