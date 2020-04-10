@@ -14,3 +14,5 @@ Our first and foremost goal is to get secure tracing apps running on billions of
 We urge all major technology companies, app developers and governments to implement apps compatible with this shared protocol. We welcome other groups engaged in similar efforts to join us at [TCN-coalition.org](http://TCN-coalition.org). We also encourage any other contact tracing coalitions to adopt similarly secure privacy-first protocols.
 
 More information on the TCN protcol is available on GitHub at https://github.com/TCNCoalition/TCN
+
+A TCN Coalition statement in response to the Apple/Google announcement on Friday, April 10 is available [here](https://bit.ly/2yRIitL). 
