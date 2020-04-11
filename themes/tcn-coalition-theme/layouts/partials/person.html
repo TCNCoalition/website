@@ -1,0 +1,26 @@
+<div class="person">
+    
+    <div class="person-photo">
+      {{ if .photo }}
+        <img src="{{ .photo | absURL }}"/>
+      {{ else }}
+        <img src="{{ "images/people/blank.png" | absURL }}" />
+      {{ end }}
+    </div>
+    <h3>{{ .name }}</h3>
+    <div class="person-country">
+      {{ with .country }}<span class="country">{{ . }}</span>{{ end }}
+    </div>
+    <div class="person-organization">
+      {{ with .organization }}<span class="organization">{{ . }}</span>{{ end }}
+    </div>
+    <div class="person-role">
+      {{ with .role }}<span class="role">{{ . }}</span>{{ end }}
+    </div>
+    <div class="person-social">
+      {{ if .twitter }}<a href="{{ .twitter | safeHTML }}"><i class="fab fa-twitter"></i></a>{{ end }}
+      {{ if .url }}<a href="{{ .url | safeHTML }}"><i class="fas fa-globe-americas"></i></a>{{ end }}
+      {{ if .linkedin }}<a href="{{ .linkedin | safeHTML }}"><i class="fab fa-linkedin"></i></a>{{ end }}
+    </div>
+
+</div>

@@ -1,0 +1,50 @@
+---
+##
+# Volunteers and other notable folks involved in TCN
+##
+- name: Andreas Gebhard
+  country: United States
+  photo: images/people/andreasgebhard.jpg
+  linkedin: https://www.linkedin.com/in/agebhard/
+  twitter: https://twitter.com/agebhard
+  url: 
+  role: Lead
+- name: Jenny Wanger
+  country: United States
+  photo: images/people/jennywanger.jpg
+  linkedin: https://www.linkedin.com/in/jennywanger/
+  twitter: https://twitter.com/jennydove
+  url:
+  role: Lead
+- name: Gary Belvin
+  country: United Kingdom
+  photo: images/people/belvin.jpg
+  linkedin: https://www.linkedin.com/in/gdbelvin/
+  twitter: https://twitter.com/gdbelvin
+  role: Volunteer
+  url:
+- name: Harper Reed
+  country: United States
+  photo: images/people/harperreed.jpg
+  linkedin: https://www.linkedin.com/in/harperreeds/
+  twitter: https://twitter.com/harper
+  url: http://harperreed.com
+  organization: Harper Rules, LLC
+  role: Volunteer
+- name: Zsombor Szabo
+  role: Bluetooth Working Group lead
+  linkedin: https://www.linkedin.com/in/zsomborszabo
+  photo: images/people/ZsomborSzabo.jpg
+  twitter: https://twitter.com/zssz?lang=en
+- name: Henry de Valence 
+  role: TCN protocol Working Group lead
+  url: https://hdevalence.ca/
+  twitter: https://twitter.com/hdevalence?
+  photo: images/people/HenrydeValence.jpg
+- name: Rhys Fenwick
+  role: PR/Comms
+  linkedin: https://www.linkedin.com/in/rhys-fenwick-a8019819a/
+  photo: images/people/RhysFenwick.jpg
+- name: Nele Quast
+  linkedin: https://www.linkedin.com/in/nele-quast-760921130/
+  photo: images/people/NeleQuast.jpg
