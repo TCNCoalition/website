@@ -1,6 +1,20 @@
 ---
 ##
 # Volunteers and other notable folks involved in TCN
+#
+# Attributes for this element are:
+#
+# name: Your Name
+# country: Your Country
+# organization: The Organisation you come from
+# role: Your role at this Organisation
+# photo: image in size 150x150px
+# facebook: Profile-link
+# twitter: Profile-link
+# linkedin: Profile-link
+# xing: Profile-link
+# github: Profile-link
+# url: Your Webpage
 ##
 - name: Andreas Gebhard
   country: United States
@@ -48,3 +62,11 @@
 - name: Nele Quast
   linkedin: https://www.linkedin.com/in/nele-quast-760921130/
   photo: images/people/NeleQuast.jpg
+- name: Sebastian Preisner
+  country: Germany
+  organization: ito & TCN
+  photo: images/people/SebastianPreisner.jpeg
+  role: Lead and organize 
+  twitter: https://twitter.com/kreativmonkey
+  github: https://github.com/kreativmonkey
+  url: https://calyrium.org
