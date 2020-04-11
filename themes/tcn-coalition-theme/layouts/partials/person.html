@@ -7,20 +7,57 @@
         <img src="{{ "images/people/blank.png" | absURL }}" />
       {{ end }}
     </div>
-    <h3>{{ .name }}</h3>
-    <div class="person-country">
-      {{ with .country }}<span class="country">{{ . }}</span>{{ end }}
-    </div>
+    {{ with .name }}<h3>{{ . }}</h3>{{ end }}
+
+    {{ with .organization }}
     <div class="person-organization">
-      {{ with .organization }}<span class="organization">{{ . }}</span>{{ end }}
+      <span class="organization">{{ . }}</span>
     </div>
+    {{ end }}
+    
+    {{ with .country }}
+    <div class="person-country">
+      <span class="country">{{ . }}</span>
+    </div>
+    {{ end }}
+
+    {{ with .role }}
     <div class="person-role">
-      {{ with .role }}<span class="role">{{ . }}</span>{{ end }}
+      <span class="role">{{ . }}</span>
     </div>
-    <div class="person-social">
-      {{ if .twitter }}<a href="{{ .twitter | safeHTML }}"><i class="fab fa-twitter"></i></a>{{ end }}
-      {{ if .url }}<a href="{{ .url | safeHTML }}"><i class="fas fa-globe-americas"></i></a>{{ end }}
-      {{ if .linkedin }}<a href="{{ .linkedin | safeHTML }}"><i class="fab fa-linkedin"></i></a>{{ end }}
+    {{ end }}
+
+    <div class="social-icons">
+
+      {{ with .facebook }}
+      <a href="{{ . | safeHTML }}">
+        <i class="fab fa-facebook"></i>
+      </a>
+      {{ end }}
+
+      {{ with .twitter }}
+      <a href="{{ . | safeHTML }}">
+        <i class="fab fa-twitter"></i>
+      </a>
+      {{ end }}
+
+      {{ with .github }}
+      <a href="{{ . | safeHTML }}">
+        <i class="fab fa-github"></i>
+      </a>
+      {{ end }}
+
+      {{ with .linkedin }}
+      <a href="{{ . | safeHTML }}">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      {{ end }}
+
+      {{ with .url }}
+      <a href="{{ . | safeHTML }}">
+        <i class="fas fa-globe-americas"></i>
+      </a>
+      {{ end }}
     </div>
 
 </div>
