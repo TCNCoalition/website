@@ -16,8 +16,8 @@ section.people
 .person
   flex: 100%
   max-width: 100%
-  margin-bottom: 2em
-  padding: 15px 0.3em
+  margin: 0 15px 2em 15px
+  padding: 0.3em
   min-height: 1px
   width: 100%
 
@@ -29,21 +29,21 @@ section.people
     flex: 33%
     min-width: 33%
   @media only screen and (min-width: 600px)
-    flex: 25%
-    min-width: 25%
+    flex: 20%
+    min-width: 20%
+    max-width: 22%
 
 
   img
-    opacity: 1
-    transition: .2s ease
-    margin-bottom: 0.8em
+    border-radius: 50%
+    width: 100%
     
 
 
   &:hover
-    .member-logo
-      img
-        opacity: 0.8
+    img
+      transition: transform 0.5s ease
+      border-radius: 0%
   
 
   h3
