@@ -14,7 +14,7 @@
       <span class="organization">{{ . }}</span>
     </div>
     {{ end }}
-    
+
     {{ with .country }}
     <div class="person-country">
       <span class="country">{{ . }}</span>
@@ -31,19 +31,19 @@
 
       {{ with .facebook }}
       <a href="{{ . | safeHTML }}">
-        <i class="fab fa-facebook"></i>
+        <i class="fab fa-facebook-square"></i>
       </a>
       {{ end }}
 
       {{ with .twitter }}
       <a href="{{ . | safeHTML }}">
-        <i class="fab fa-twitter"></i>
+        <i class="fab fa-twitter-square"></i>
       </a>
       {{ end }}
 
       {{ with .github }}
       <a href="{{ . | safeHTML }}">
-        <i class="fab fa-github"></i>
+        <i class="fab fa-github-square"></i>
       </a>
       {{ end }}
 
