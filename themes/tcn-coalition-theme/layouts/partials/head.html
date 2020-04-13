@@ -20,11 +20,11 @@
     <link rel="icon" type="image/png" sizes="32x32" href="{{ "images/favicon-32x32.png" | absURL }}">
     <link rel="icon" type="image/png" sizes="16x16" href="{{ "images/favicon-16x16.png" | absURL }}">
     <link rel="manifest" href="/site.webmanifest">
-
+    <script src="https://kit.fontawesome.com/f8230c5983.js" crossorigin="anonymous"></script>
     {{- partial "head/opengraph.html" . -}}
 
     {{ $scss := resources.Get "scss/app.sass" }}
     {{ $style := $scss | resources.ToCSS }}
     <link rel="stylesheet" href="{{ $style.Permalink }}">
-
+  
   {{ end }}

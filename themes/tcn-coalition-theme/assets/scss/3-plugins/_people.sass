@@ -1,0 +1,70 @@
+section.people
+  @extend %border-bottom
+  margin-bottom: 0.75em
+  +clearfix
+
+  h2.title
+    text-align: center
+    margin-bottom: 2em
+
+  div.people
+    display: flex
+    flex-wrap: wrap
+    width: 100%
+
+      
+.person
+  flex: 100%
+  max-width: 100%
+  margin: 0 15px 2em 15px
+  padding: 0.3em
+  min-height: 1px
+  width: 100%
+
+
+  @media only screen and (min-width: 400px)
+    flex: 50%
+    min-width: 50%
+  @media only screen and (min-width: 500px)
+    flex: 33%
+    min-width: 33%
+  @media only screen and (min-width: 600px)
+    flex: 20%
+    min-width: 20%
+    max-width: 22%
+
+
+  img
+    border-radius: 50%
+    width: 100%
+    
+
+
+  &:hover
+    img
+      transition: transform 0.5s ease
+      border-radius: 0%
+  
+
+  h3
+    margin: 0 0 0.2em
+
+  .photo
+
+
+
+  .country
+    font-size: 0.9em
+    color: $color-primary-text
+
+  .role
+    font-size: 0.9em
+    color: $color-primary-text
+
+  .social-icons
+    font-size: 2em
+    @media only screen and (min-width: 600px)
+      font-size: 1.2em
+
+    a
+      margin-right: 5px
