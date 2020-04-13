@@ -2,7 +2,15 @@
   <a href="{{ .url | safeHTML }}"> 
     <div class="member-logo">
       {{ if .logo }}
-        <img src="{{ .logo | absURL }}"/>
+        {{ if ge ( path.Ext .logo ) ".svg" }}
+          <object data="{{ .logo | absURL }}" type="image/svg+xml">
+      
+            <!---Fallback--->
+            Ihr Browser kann leider kein svg darstellen!  
+          </object>
+        {{ else }}
+          <img src="{{ .logo | absURL }}"/>
+        {{ end }}
       {{ else }}
         <img src="{{ "images/members/blank.png" | absURL }}" />
       {{ end }}
