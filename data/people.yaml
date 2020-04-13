@@ -21,7 +21,7 @@
   photo: images/people/andreasgebhard.jpg
   linkedin: https://www.linkedin.com/in/agebhard/
   twitter: https://twitter.com/agebhard
-  url: 
+  url: https://www.forwardmomentum.llc
   role: Lead
 - name: Jenny Wanger
   country: United States
@@ -59,6 +59,7 @@
   linkedin: https://www.linkedin.com/in/rhys-fenwick-a8019819a/
   photo: images/people/RhysFenwick.jpg
 - name: Nele Quast
+  role: Lead
   linkedin: https://www.linkedin.com/in/nele-quast-760921130/
   photo: images/people/NeleQuast.jpg
 - name: Sebastian Preisner
