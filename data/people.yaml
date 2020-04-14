@@ -40,7 +40,7 @@
 - name: Harper Reed
   country: United States
   photo: images/people/harperreed.jpg
-  linkedin: https://www.linkedin.com/in/harperreeds/
+  linkedin: https://www.linkedin.com/in/harperreed/
   twitter: https://twitter.com/harper
   url: http://harperreed.com
   role: Advisor
@@ -63,3 +63,8 @@
   role: Lead
   linkedin: https://www.linkedin.com/in/nele-quast-760921130/
   photo: images/people/NeleQuast.jpg
+- name: T.E. Shaw
+  country: Germany
+  role: Partnerships & Outreach
+  linkedin: http://linkedin.com/in/dahoum
+  photo: images/people/TEShaw.jpg
