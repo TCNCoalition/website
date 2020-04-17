@@ -21,18 +21,26 @@ section.people
   min-height: 1px
   width: 100%
 
-
-  @media only screen and (min-width: 400px)
-    flex: 50%
-    min-width: 50%
+  @media only screen and (min-width: 270px)
+    // default two person in a row
+    flex: 38%
+    min-width: 38%
+    max-width: 39%
+  // Three person in row
   @media only screen and (min-width: 500px)
-    flex: 33%
-    min-width: 33%
+    flex: 27%
+    min-width: 27%
+    max-width: 28%
+  // Four person in row
   @media only screen and (min-width: 600px)
     flex: 20%
     min-width: 20%
-    max-width: 22%
-
+    max-width: 21%
+  // Five person in row
+  @media only screen and (min-width: 750px)
+    flex: 16%
+    min-width: 16%
+    max-width: 17%
 
   img
     border-radius: 50%
@@ -49,10 +57,6 @@ section.people
   h3
     margin: 0 0 0.2em
 
-  .photo
-
-
-
   .country
     font-size: 0.9em
     color: $color-primary-text
@@ -62,7 +66,7 @@ section.people
     color: $color-primary-text
 
   .social-icons
-    font-size: 2em
+    font-size: 1.5em
     @media only screen and (min-width: 600px)
       font-size: 1.2em
 
