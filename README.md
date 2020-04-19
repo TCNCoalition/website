@@ -43,6 +43,6 @@ git clone --single-branch --branch master https://github.com/TCNCoalition/websit
 Now you can switch inside the Folder and start hugo in server mode to provite a preview of the Webpage under http://localhost:1313
 
 ```bash
-cd ito-org.github.io
+cd website
 hugo server
 ```
