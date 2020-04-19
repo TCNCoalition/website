@@ -19,7 +19,7 @@ Example:
 
 ### Logo
 
-You can add your logo under ``static/images/members``. You can choose between different file types (jpg, gif, png, svg) but we recomment you to use svg. Please use a square logo with the 1:1 dimming
+You can add your logo under ``static/images/members``. You can choose between different file types (jpg, gif, png, svg) but we recomment you to use svg. Please use a square logo with a ratio of 1:1.
 
 
 ## How to Contribute
