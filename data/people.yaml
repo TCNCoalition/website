@@ -54,10 +54,6 @@
   url: https://hdevalence.ca/
   twitter: https://twitter.com/hdevalence?
   photo: images/people/HenrydeValence.jpg
-- name: Rhys Fenwick
-  role: PR/Comms
-  linkedin: https://www.linkedin.com/in/rhys-fenwick-a8019819a/
-  photo: images/people/RhysFenwick.jpg
 - name: Nele Quast
   country: Germany
   role: Lead
@@ -74,8 +70,7 @@
   photo: images/people/EllieDaw.jpg
 - name: Clara Fischer
   country: Germany
-  organisation: ito
-  photo: image/people/ClareFischer.jpg
+  photo: images/people/ClareFischer.jpg
   role: PR/Comms
   twitter: https://twitter.com/Voice_of_tech
   linkedin: https://www.linkedin.com/in/clara-evelyn-fischer
