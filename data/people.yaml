@@ -49,7 +49,7 @@
   linkedin: https://www.linkedin.com/in/zsomborszabo
   photo: images/people/ZsomborSzabo.jpg
   twitter: https://twitter.com/zssz?lang=en
-- name: Henry de Valence 
+- name: Henry de Valence
   role: TCN protocol Working Group lead
   url: https://hdevalence.ca/
   twitter: https://twitter.com/hdevalence?
@@ -65,8 +65,9 @@
   linkedin: http://linkedin.com/in/dahoum
   photo: images/people/TEShaw.jpg
 - name: Ellie Daw
-  role: Server-Server Communication Working Group lead
+  role: Interoperability Working Group lead
   linkedin: https://www.linkedin.com/in/EllieDaw/
+  twitter: https://twitter.com/cryptoreo
   photo: images/people/EllieDaw.jpg
 - name: Clara Fischer
   country: Germany
