@@ -17,7 +17,7 @@
   logo: images/members/ito-logo.png
   url: https://www.ito-app.org/
 - organization: Secure Open Standard for Tracking and Notification
-  country: 
+  country:
   logo: images/members/SOS-logo.png
   url: https://docs.google.com/presentation/d/163WcvBqElA5aVDKIHY9jeY5fTtzj3a-zZLYRaEgYELg/edit#slide=id.g728589ef5c_84_15
 - organization: Zcash Foundation
@@ -59,7 +59,7 @@
 - organization: Corona GO
   country: Germany
   logo: images/members/corona-go-logo.png
-  url: https://www.corona-go.de 
+  url: https://www.corona-go.de
 - organization: Covid Community Alert
   country: Italy
   logo: images/members/covid_community_alert_logo.png
@@ -80,4 +80,7 @@
   country: Germany
   logo: images/members/Datarella-250sq-block.svg
   url: https://datarella.com/
-
+- organization: Coronika
+  country: Germany
+  logo: images/members/coronika-logo.png
+  url: https://www.coronika.app/
