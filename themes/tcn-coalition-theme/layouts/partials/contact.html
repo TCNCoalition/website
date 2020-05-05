@@ -1,0 +1,12 @@
+<section class="contact">
+    <h2 class="title">Contact TCN!</h2>
+<div style="margin-bottom: 2em">
+    {{ range $.Site.Data.contact }}
+    <div class="header">{{ .header}}</div>
+    <p>{{ .text }}</p>
+    {{ end }}
+</div>
+<div>
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdUe_gUQcJmirjOxZA1CBuhtMY3IkYUeBP2X8pX_Sx_GBs33Q/viewform?embedded=true" width="100%" height="1233" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+</div>
+</section>
