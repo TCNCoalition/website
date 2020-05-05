@@ -1,0 +1,36 @@
+section.whitepapers
+  @extend %border-bottom
+  margin-bottom: 1.5em
+  +clearfix
+
+  h2.title
+    text-align: center
+    margin-bottom: 2em
+
+  div.whitepapers
+    display: flex
+    flex-wrap: wrap
+    width: 100%
+
+
+.whitepaper
+  flex: 100%
+  max-width: 100%
+  margin: 0 15px 2em 15px
+  padding: 0.3em
+  min-height: 1px
+  width: 100%
+
+  @media only screen and (min-width: 270px)
+    // default two papers in a row
+    flex: 38%
+    min-width: 38%
+    max-width: 39%
+
+  h3
+    margin: 0 0 0.2em
+    color: gray
+
+  .read-more
+    font-size: smaller
+    text-align: right
