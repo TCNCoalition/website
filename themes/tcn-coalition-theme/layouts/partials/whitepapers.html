@@ -1,8 +1,4 @@
 <section class="whitepapers">
-    <header class="section-header">
-      <h2 class="title">Whitepapers Published by the TCN Coalition</h2>
-    </header>
-
     <div class="whitepapers">
       {{ range sort $.Site.Data.whitepapers "name" }}
         {{ partial "whitepaper.html" .}}

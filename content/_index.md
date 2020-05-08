@@ -2,7 +2,10 @@
 title: "A Global Coalition for Privacy-First Digital Contact Tracing Protocols to Fight COVID-19"
 date: 2020-04-08T05:31:18Z
 draft: false
-
+menu:
+  main:
+    name: "Home"
+    weight: 1
 ---
 
 ## About Us
