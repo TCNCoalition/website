@@ -1,8 +1,8 @@
 
 
-  <a href="{{ .link | safeHTML }}"><h2>{{ .name }}</h2></a>
+  <a href="{{ .link | absURL }}"><h2>{{ .name }}</h2></a>
     <p class="description">{{ .description }}</p>
-  <a href="{{ .link | safeHTML }}" target="_blank">
+  <a href="{{ .link | absURL }}" target="_blank">
     <p class="read-more">Continue reading --></p>
   </a>
 <hr />
