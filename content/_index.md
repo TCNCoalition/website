@@ -14,7 +14,7 @@ Founded in April 2020, the TCN Coalition is a global community of technologists 
 
 We achieve this mission through several efforts: connecting and educating app developers about navigating the public health environment, assisting public health agencies in understanding how to deploy this technology safely and effectively, and supporting exposure notification apps with open source software.
 
-# [Reach out to the TCN Coalition](/contact)
+# [We want to work with you. Contact the TCN Coalition](/contact)
 
 ## The Challenge
 
