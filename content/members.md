@@ -8,6 +8,6 @@ menu:
     weight: 10
 ---
 
-Our wonderful member companies and community
+Our wonderful member companies and community:
 
 {{< members >}}
