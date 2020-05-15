@@ -34,6 +34,6 @@ The TCN Coalition serves as a gathering place to increase visibility across the 
 
 ##  More Information
 
-More information on the TCN Protocol is available on GitHub at https://github.com/TCNCoalition/TCN.
+More information on the TCN Protocol is available on GitHub at <a href="https://github.com/TCNCoalition/TCN" target="_blank">https://github.com/TCNCoalition/TCN</a>.
 
 A TCN Coalition statement in response to the Apple/Google announcement on Friday, April 10 is available [here](https://bit.ly/2yRIitL). 
